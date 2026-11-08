@@ -1,0 +1,23 @@
+/* Final composition corrections at laptop and portrait-tablet widths */
+@media(min-width:901px) and (max-width:1180px){
+  .hero-product{right:-13%;top:28%;width:58vw;height:410px}
+  .hero-copy{width:58%}
+  .hero h1{font-size:clamp(66px,6.7vw,86px)}
+}
+@media(min-width:701px) and (max-width:900px){
+  .hero,.hero-layout{min-height:930px}
+  .hero-layout{display:block}
+  .hero-architecture{inset:0;background-position:60% center;opacity:.58}
+  .hero-architecture::after{background:linear-gradient(0deg,#061421 2%,rgba(6,20,33,.64) 46%,rgba(6,20,33,.22)),linear-gradient(90deg,rgba(6,20,33,.5),rgba(6,20,33,.16))}
+  .hero-ink{background:linear-gradient(0deg,#061421 0%,rgba(6,20,33,.78) 38%,rgba(6,20,33,.36) 80%)}
+  .hero-gridline,.hero-side-note,.product-index{display:none}
+  .hero-product{top:82px;right:-5%;width:93%;height:250px}
+  .hero-product img{max-height:250px}
+  .hero-product-shadow{bottom:0}
+  .hero-air{top:10%;right:-6%;width:88%;height:33%}
+  .hero-copy{width:100%;padding:285px 0 155px}
+  .hero h1{font-size:clamp(60px,8.3vw,73px);margin:18px 0 20px}
+  .hero-description{max-width:570px}
+  .hero-actions{margin-top:25px}
+  .hero-rating{bottom:75px}
+}
